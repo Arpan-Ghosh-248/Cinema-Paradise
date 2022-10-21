@@ -1,23 +1,29 @@
-import React from "react";
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import IconLogo from '../../assets/img/icon-logo.svg';
 import { push } from 'connected-react-router';
 
+function Header() {
+    const dispatch = useDispatch();
 
-
-function Footer() {
     return (
         <>
-            <footer>
-                <img className="ft-lg" src={IconLogo} alt="" />
-                <p>Cinema Paradiso is the world’s leading community for creators to share, grow, and get hired.</p>
-                <h2>Contact</h2>
-                <p>E-mail : movie@cinemaparadiso.com | Hotline: +1 131 138 138</p>
-                <hr />
-                <p>CINEMA PARADISO - © 2022. ALL RIGHTS RESERVED.</p>
-            </footer>
+            <header>
+                <img class="logo" src={IconLogo} onClick={() => dispatch(push('/'))} alt="" />
+                <div class="side-head">
+                    <div class="search">
+                        <input type="text" />
+                        
+                    </div>
+                    <div class="option">
+                        <p onClick={() => dispatch(push('/categories'))}>Category</p>
+                        <p onClick={() => dispatch(push('/favourites'))}>Add to Wishlist</p>
+                    </div>
+                </div>
+            </header>
         </>
     );
+
 }
 
-export default Footer;
+export default Header;
