@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import Header from '../components/common/Header';
+import Header from '../components/Common/Header';
 import { getMovies } from '../reducks/movies/selectors';
 import API from '../API';
 import { getFavourites } from '../reducks/favourites/selectors';
 import { addFavourite, fetchFromLocalStorage } from '../reducks/favourites/operations';
 import { useDispatch } from 'react-redux';
 import IconFav from '../assets/img/icon-fav.png';
-import Preview from '../components/common/Preview'
+import Preview from '../components/Common/Preview';
 const api = new API();
 
 const Categories = () => {
