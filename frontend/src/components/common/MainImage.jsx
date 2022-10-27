@@ -1,8 +1,6 @@
-import React from "react";
-import Header from "../components/header";
-
-import ImgBackground from '../../src/assets/img/Group 2218.png';
-
+import React from 'react';
+import Header from '../Common/Header';
+import ImgBackground from '../../assets/img/Group 2218.png';
 
 function MainImage() {
     return (
@@ -34,3 +32,5 @@ function MainImage() {
         </>
     );
 }
+
+export default MainImage;
