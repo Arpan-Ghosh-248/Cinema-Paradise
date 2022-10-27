@@ -57,4 +57,3 @@ const Preview = ({ setShowPreview, selectedMovieId }) => {
 };
 
 export default Preview;
-
