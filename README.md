@@ -8,8 +8,8 @@ movies in a single click.
 ```
 ## Live Demo
 **This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
-Check out [FRONTEND LIVE DEMO](https://cinemaparadisofrontend.bablukumar9.repl.co) here!!
-Check out [API LIVE DEMO](https://cinemaparadisobackend.bablukumar9.repl.co) here!!
+Check out [FRONTEND LIVE DEMO]() here!!
+Check out [API LIVE DEMO]() here!!
 ## Tech used
 ```
 * Frontend : React & Redux
@@ -18,7 +18,7 @@ Check out [API LIVE DEMO](https://cinemaparadisobackend.bablukumar9.repl.co) her
 ## How to Install
 1. Git Clone
 ```
-git clone https://github.com/bablukumar21/cinema_paradiso.git
+git clone 
 ```
 2. Backend setting
 ```
